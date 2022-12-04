@@ -11,9 +11,37 @@ body{
     font-family: 'Robotto', sans-serif;
 }
 
+.section-one
+{
+    display: flex;
+    align-items: center;
+}
+.section-one .container
+{
+    display:flex;;
+    gap: 50px;
+}
+
+.container .text-container
+{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 40%;
+}
+.container .img-placeholder
+{
+    display:flex;
+    flex:1;
+    color: white;
+    background:grey;
+    align-items: center;    
+    justify-content: center;
+}
+
 .container
 {
-    max-width: 1500px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -82,7 +110,7 @@ ul
 
 .section-one, .section-two, .section-three
 {
-    height:300px;
+    height:400px;
 }
 
 .section-three
@@ -103,6 +131,8 @@ button
 {
     background-color: #3882F6;
     border:none;
+    border-radius: 7px;
+    width:90px;
     padding:5px;
 }
 

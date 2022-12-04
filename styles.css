@@ -21,6 +21,7 @@ body{
 {
     background-color: #1F2937;
     height:60px;
+
 }
 
 ul
@@ -30,6 +31,7 @@ ul
 }
 .navbar .container
 {
+
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -73,14 +75,28 @@ ul
     font-size: 18px;
 }
 
-.section-one
+.section-one, .footer
 {
     background:#1F2937;
+}
+
+.section-one, .section-two, .section-three
+{
+    height:300px;
 }
 
 .section-three
 {
     background: #E5E7EB;
+}
+
+.footer
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color:white;
 }
 
 button
